@@ -1,0 +1,138 @@
+main {
+    display: flex;
+    align-items: stretch;
+    background: #F9F9F9;
+    width: 100%;
+    height: auto;
+}
+
+input {
+    border-radius: 8px;
+    border-color: grey;
+    padding: 2%;
+}
+
+.year-input {
+    font-size: 0.8rem;
+    overflow-wrap: normal;
+    margin: 2%;
+}
+
+form {
+    padding: 5%;
+}
+
+fieldset {
+    width: 100%;
+    border-color: transparent;
+}
+
+.add-edu {
+    display: flex;
+    /*flex-direction: row;*/
+    white-space: nowrap;
+}
+
+.add-edu-button:before {
+    content: "+";
+    margin: 2%;
+}
+
+#edu-year-end {
+    text-align: center;
+}
+
+hr {
+    color: #F3F1F4;
+    background-color: #F3F1F4;
+    height: 2px;
+    width: 100%;
+    border-radius: 2px;
+}
+
+.buttons-block {
+    align-items: end;
+    margin-bottom: 0;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-form-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-form-submit {
+    display: flex;
+    flex-direction: row;
+}
+
+.button-save {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #5900B2;
+    height: 30px;
+    width: 100px;
+    margin-right: 2%;
+}
+
+.button-save:hover {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #7800C1;
+    height: 30px;
+    width: 100px;
+    margin-right: 2%;
+}
+
+.button-save:active {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #47008E;
+    height: 30px;
+    width: 100px;
+    margin-right: 2%;
+}
+
+.button-reset {
+    border: 1px solid grey;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #FFFFFF;
+    height: 30px;
+    width: 100px;
+}
+
+.button-save-color {
+    color: white;
+}
+
+.button-reset-color {
+    color: #8F889A;
+}
+
+.button-reset:hover {
+    border: 1px solid grey;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #EEE3F8;
+    height: 30px;
+    width: 100px;
+}
+
+.button-reset:active {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #CCACE8;
+    height: 30px;
+    width: 100px;
+}
+

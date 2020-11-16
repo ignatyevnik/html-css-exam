@@ -1,0 +1,100 @@
+.interests {
+    background: #F9F9F9;
+    margin-left: 1%;
+    height: auto;
+}
+
+h3 {
+    padding-left: 5%;
+    white-space: nowrap;
+}
+
+.person-skills-icons {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icon-1 {
+    position: relative;
+    color:indigo;
+    padding-top: 2.5%;
+    padding-right: 15%;
+}
+
+.icon-2 {
+
+}
+
+.icon-3 {
+
+}
+
+.bubble-block {
+    padding-left: 5%;
+}
+
+.interest-bubble {
+    margin-right: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border: 1px solid transparent;
+    background: #DDE4FF;
+    color: #5A07FF;
+    border-radius: 8px;
+}
+
+.navbar {
+    display: inline-block;
+    justify-content: space-between;
+    border-bottom: 3px solid grey;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.navbar a {
+    color: black;
+    margin-right: 3%;
+}
+
+.navbar a:hover {
+    border-bottom: 3px solid indigo;
+}
+
+.info-icon {
+    display: flex;
+    color:indigo;
+    align-items: center;
+}
+
+.info {
+    display: none;
+}
+
+.info:hover {
+    display: block;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 5%;
+}
+
+ul {
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 5%;
+}
+
+.person-skills {
+    height: 40%;
+    width: 100%;
+    background: #F9F9F9;
+}
+
+.meta-skills {
+    height: 30%;
+    width: 100%;
+    background: #F9F9F9;
+}
+
+

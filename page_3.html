@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Олимп - Профессиональные навыки</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/page_3.css">
+    <link rel="stylesheet" href="css/flex-grid.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header class="flex-row">
+    <div class="col-2"></div>
+    <div class="col-6 header-links">
+        <div>
+            <a href="#">ОЛИМП</a>
+        </div>
+        <div class="flex-row links">
+            <a class="col-2 links-style txt-color" href="#">link1</a>
+            <a class="col-2 links-style txt-color" href="#">link2</a>
+            <a class="col-2 links-style txt-color" href="#">link3</a>
+        </div>
+    </div>
+    <div class="col-2 user-info">
+        <span class="links-style header-profile-link">Профиль</span>
+    </div>
+    <div class="col-2"></div>
+</header>
+
+<div class="flex-row main-block">
+    <aside class="flex-column col-2"></aside>
+    <main class="col-6">
+        <form id="edu-form" class="main-form" action="#" method="post">
+            <div class="main-form-inputs">
+                <div>
+                    <fieldset>
+                        <legend>Учебное заведение:</legend>
+                        <input id="edu-1" name="edu" type="text" placeholder="Название или аббревиатура" autofocus
+                               size="50">
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Учебное заведение:</legend>
+                        <input id="edu-2" name="edu" type="text" placeholder="Название или аббревиатура" size="50">
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Год окончания</legend>
+                        <div class="flex-row">
+                            <input class="flex-column" id="edu-year-end" name="edu-year" type="text" placeholder="2021"
+                                   size="4">
+                            <p class="col-6 year-input">Если вы учитесь сейчас, укажите предполагаемый год
+                                окончания</p>
+                        </div>
+                    </fieldset>
+                </div>
+                <hr>
+                <div class="add-edu">
+                    <p class="add-edu-button">Добавить еще одно образование</p>
+                </div>
+            </div>
+
+            <div class="main-form-submit">
+                <button class="button-save button-save-color" type="submit">Сохранить</button>
+                <button class="button-reset button-reset-color" type="reset">Отменить</button>
+            </div>
+        </form>
+    </main>
+
+    <aside class="flex-column col-2 aside-profile">
+        <nav class="border-nav">
+            <a class="nav-links-color" href="#">Личная информация</a>
+            <a class="nav-links-color" href="#">Основное образование</a>
+            <a class="nav-links-color" href="#">Дополнительное образование</a>
+            <a class="nav-links-color" href="#">Ключевые навыки</a>
+            <a class="nav-links-color" href="#">Профессиональные навыки</a>
+            <a class="nav-links-color" href="#">Обо мне</a>
+        </nav>
+    </aside>
+</div>
+
+<footer></footer>
+
+</body>
+</html>
